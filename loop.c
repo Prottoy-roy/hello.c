@@ -1,5 +1,5 @@
 #include<stdio.h>
-//this is a program from to 0 to n
+//This is a program from to 0 to n
 int main(){
   int n;
   printf("enter n: ");
