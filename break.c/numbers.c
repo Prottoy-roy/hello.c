@@ -1,12 +1,12 @@
 #include<stdio.h>
 //keep taking numbers as input from user untill user add a "odd number"
 int main() {
-  int number;
+  int n;
   printf("enter input from user : ");
-  scanf("%d",&number);
-  for(int i=1;i<=number;i++) {
-    if(!(number%2==0)){
-      printf("end thak you");
+  scanf("%d",&n);
+  for(int i=1;i<=n;i++) {
+    if(!( n%2 == 0)){
+      printf("end");
       break;
     }
     printf("%d \n",i);
