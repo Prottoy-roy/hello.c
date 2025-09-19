@@ -4,7 +4,7 @@ int main(void)
 {
   char name[100];
   printf("enter name:");
-  scanf("%c",&name[100]);
+  scanf("%99s",&name);
   _name(name);
   return 0;
 }
