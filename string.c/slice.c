@@ -3,7 +3,7 @@
 void slice(char str[],int m,int n);
 int main(void)
 {
-  char str[]="helloword";
+  char str[]="helloword";//slice from 3 to 6
   slice(str,3,6);
   return 0;
 }
