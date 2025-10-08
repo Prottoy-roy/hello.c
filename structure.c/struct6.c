@@ -3,7 +3,7 @@ typedef struct student{
   char name[100];
   float cgpa;
   int roll;
-}stu;
+}stu; //stu is a nickname of student
 void stuinfo(struct student s1);
 int main(void){
   stu s1 = {"prottoy",7.50,1010};
